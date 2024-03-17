@@ -9,13 +9,11 @@
 6. git branch<br>
 7. git push origin main or git push -u origin main
 ## React App creation using vite
-1.React App Crating using vite
-2.npm create  vite@latest
-3.Select->React->Javasript
-
-Command line: 
+1.React App Crating using vite <br>
+2.npm create  vite@latest<br>
+3.Select->React->Javasript<br>
+4.Command line: 
   cd Redux
   npm install
-  npm run dev 
-
-npm install -D sass
+  npm run dev <br>
+5.Creating style using style.scss file -> npm install -D sass<br>
