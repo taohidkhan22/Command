@@ -18,8 +18,21 @@
 ## Github blank page issue
 1.  'vite.config.js' "base": "/Your RepoName/"
 2.  'package.json' "homepage": "https://YourAccountName.github.io/YourRepoName"
-3.  npm run build
-4.  npm run dev
-5.  npm run preview(Before deploying into GitHub you can actually see in your local browser how your page will work on github)
-6.  npm run deploy (Deploying github)
+3.  git add .
+4.  git commit -m"your meesasage"
+5.  git push
+6.  npm run build
+7.  npm run dev
+8.  npm run preview(Before deploying into GitHub you can actually see in your local browser how your page will work on github)
+9.  npm run deploy (Deploying github)
+Note if you have picture issues like (Everything working fine in your website expect not loading your picture, then you have to import the picture in your specific component)
+Example:
+import logoimage from '../assets/images/image.png'; [into your .jsx file]
+ <img
+                src={logoimage}
+                width=""
+                height=""
+                style={{ marginLeft: "0px" }}
+                alt=""
+   />
 
