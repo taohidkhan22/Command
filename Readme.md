@@ -9,10 +9,9 @@
 6. git branch<br>
 7. git push origin main or git push -u origin main
 ## React App creation using vite
-
-1.React App Crating using vitenpm create  vite@latest
-
-Select->React->Javasript
+1.React App Crating using vite
+2.npm create  vite@latest
+3.Select->React->Javasript
 
 Command line: 
   cd Redux
