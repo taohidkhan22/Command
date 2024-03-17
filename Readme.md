@@ -27,12 +27,12 @@
 9.  npm run deploy (Deploying github)
 Note if you have picture issues like (Everything working fine in your website expect not loading your picture, then you have to import the picture in your specific component) <br>
     Example:
-<br>import logoimage from '../assets/images/image.png'; [into your .jsx file]
-  &nbsp<br><img
-                &nbsp <br>src={logoimage}
-                &nbsp <br>width=""
-                &nbsp <br> height=""
-                &nbsp <br> style={{ marginLeft: "0px" }}
-                &nbsp <br>alt=""
-  &nbsp <br> />
+ <br>import logoimage from '../assets/images/image.png'; [into your .jsx file]
+ <br><img
+                 <br>&nbsp;src={logoimage}
+                 <br>&nbsp;width=""
+                 <br>&nbsp; height=""
+                 <br>&nbsp; style={{ marginLeft: "0px" }}
+                 <br>&nbsp;alt=""
+ <br> />
 
