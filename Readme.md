@@ -35,4 +35,10 @@
                  <br>&nbsp; &nbsp; tyle={{ marginLeft: "0px" }}
                  <br>&nbsp;&nbsp;alt=""
           <br> />
-
+## Script for package.json
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
