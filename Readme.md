@@ -35,10 +35,16 @@
                  <br>&nbsp; &nbsp; tyle={{ marginLeft: "0px" }}
                  <br>&nbsp;&nbsp;alt=""
           <br> />
-## Script for package.json
+## 'Script' for package.json
 "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+## Fork a GiTHuB Repo:
+1. git clone https://github.com/your-username/forked-repo.git
+2. git remote add upstream https://github.com/original-owner/original-repo.git
+3. git fetch upstream
+4. git merge upstream/main
+5. git push origin main
