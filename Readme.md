@@ -36,12 +36,15 @@
                  <br>&nbsp;&nbsp;alt=""
           <br> />
 ## 'Script' for package.json
+js 
+```
 "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+```
 ## Fork a GiTHuB Repo:
 1. git clone https://github.com/your-username/forked-repo.git
 2. git remote add upstream https://github.com/original-owner/original-repo.git
