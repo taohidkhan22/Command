@@ -27,6 +27,7 @@
 9.  npm run deploy (Deploying Github)<br> 
 <b>Note</b>: if you have picture issues like (Everything working fine on your website. In your GitHub page picture is not loading, then you have to import the picture in your specific component) <br>
     Example:
+    ```
        <br>import image_name from '../assets/images/image.png'; [into your .jsx file]
           <br><img
                  <br>&nbsp;&nbsp;src={image_name}
@@ -35,8 +36,9 @@
                  <br>&nbsp; &nbsp; tyle={{ marginLeft: "0px" }}
                  <br>&nbsp;&nbsp;alt=""
           <br> />
+    ```
 ## 'Script' for package.json
-js 
+
 ```
 "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
