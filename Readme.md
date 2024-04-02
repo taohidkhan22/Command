@@ -1,4 +1,6 @@
-##Command
+## Command
+
+
 ### Git repository creation on local computer 
 1. mkdir "folder name" <br>
 2. git init <br>
@@ -15,7 +17,7 @@
   <br>-npm install
   <br>-npm run dev <br>
 4.  Creating style using style.scss file -> npm install -D sass
-## Github blank page issue
+### Github blank page issue
 1.  'vite.config.js' "base": "/Your RepoName/"
 2.  'package.json' "homepage": "https://YourAccountName.github.io/YourRepoName"
 3.  git add .
@@ -26,7 +28,7 @@
 8.  npm run preview(Before deploying into GitHub you can actually see in your local browser how your page will work on GitHub)
 9.  npm run deploy (Deploying Github)<br> 
 <b>Note</b>: if you have picture issues like (Everything working fine on your website. In your GitHub page picture is not loading, then you have to import the picture in your specific component) <br>
-Example:
+- Example:
 ```
        <import image_name from '../assets/images/image.png'; [into your .jsx file]
          <img
@@ -37,7 +39,7 @@ Example:
                   alt=""
          />
 ```
-## 'Script' for package.json
+### 'Script' for package.json
 
 ```
 "predeploy": "npm run build",
@@ -47,7 +49,7 @@ Example:
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
 ```
-## Fork a GiTHuB Repo:
+### Fork a GiTHuB Repo:
 1. git clone https://github.com/your-username/forked-repo.git
 2. git remote add upstream https://github.com/original-owner/original-repo.git
 3. git fetch upstream
