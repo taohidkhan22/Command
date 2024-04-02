@@ -31,13 +31,12 @@
 Note: _if you have picture issues like (Everything working fine on your website. In your GitHub page picture is not loading, then you have to import the picture in your specific component)_
 - Example:
 ```
- <import image_name from '../assets/images/image.png'; [into your .jsx file]
- <img
- src={image_name}
-width="__"
- height="__"
-   style={{ marginLeft: "0px" }}
-    alt=""
+<import image_name from '../assets/images/image.png' ; [into your .jsx file] 
+<img src={image_name}
+     width="__"
+     height="__"
+     style={{ marginLeft: "0px" }}
+     alt="" 
 />
 ```
 ### 'Script' for package.json
