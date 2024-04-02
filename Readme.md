@@ -26,8 +26,9 @@
 6.  npm run build
 7.  npm run dev
 8.  npm run preview(Before deploying into GitHub you can actually see in your local browser how your page will work on GitHub)
-9.  npm run deploy (Deploying Github)<br> 
-Note:_if you have picture issues like (Everything working fine on your website. In your GitHub page picture is not loading, then you have to import the picture in your specific component)_
+9.  npm run deploy (Deploying Github)<be> 
+
+Note: _if you have picture issues like (Everything working fine on your website. In your GitHub page picture is not loading, then you have to import the picture in your specific component)_
 - Example:
 ```
        <import image_name from '../assets/images/image.png'; [into your .jsx file]
