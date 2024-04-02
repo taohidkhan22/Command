@@ -1,5 +1,5 @@
-
-## Git repository creation on local computer 
+##Command
+### Git repository creation on local computer 
 1. mkdir "folder name" <br>
 2. git init <br>
 3. add, commit<br>
@@ -8,7 +8,7 @@
 6. git branch<br>
 7. git push origin main or git push -u origin main
    
-## React App creation using vite
+### React App creation using vite
 1. npm create  vite@latest
 2. Select: React-> Javasript
 3. Command line:<br>-cd Redux
